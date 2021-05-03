@@ -1,0 +1,31 @@
+Installation steps:
+
+https://www.youtube.com/watch?v=MpUvdLD932c&ab_channel=JeffHeaton
+
+Create environment:
+
+Run the following command from the directory where tf.yml file is present:
+conda env create -v -f tf.yml
+
+Activate environment:
+
+conda activate tensorflow
+
+Install Kernel:
+
+python -m ipykernel install --user --name tensorflow --display-name "Python 3.8 (tensorflow)"
+
+Start notebook:
+
+jupyter notebook
+
+
+
+To start notebook each time:
+
+1) Cd to the root folder.
+2) Run `conda activate tensorflow`
+3) Run `jupyter notebook`
+
+
+
